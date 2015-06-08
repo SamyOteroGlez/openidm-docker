@@ -1,4 +1,4 @@
-FROM docker-registry.zalando/tsarnowski/zalando-java:8u31-1
+FROM java:8-jre
 
 RUN apt-get update && apt-get install -y \
     unzip \
